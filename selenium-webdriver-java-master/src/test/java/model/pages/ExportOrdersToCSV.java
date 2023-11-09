@@ -16,11 +16,8 @@ public class ExportOrdersToCSV {
     private By passwordID = By.id("login");
     private By loginBtn = By.cssSelector("[type='submit']");
 
-    By chooseSales = By.xpath("//span[normalize-space()='Sales']");
-//    By chooseSales = By.xpath("//a[span[normalize-space()='Sales' and @onclick='return false']]");
-
-//    By Salesorders = By.xpath("//span[normalize-space()='Orders']");
-By Salesorders = By.xpath("//a[contains(@href,'backendlogin/sales_order')]/span[normalize-space(text())='Orders']");
+    By chooseSales = By.linkText("Sales");
+    By Salesorders = By.linkText("Orders");
 
 
     public ExportOrdersToCSV(WebDriver driver) {
