@@ -23,6 +23,6 @@ public class TestLoginPageSimple {
         loginPage.inputPassword("12345678");
         loginPage.clickOnLoginBtn();
 
-        driver.quit();
+
     }
 }
