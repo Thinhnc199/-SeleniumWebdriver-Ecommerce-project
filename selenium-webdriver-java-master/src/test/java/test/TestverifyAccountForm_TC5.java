@@ -32,7 +32,7 @@ public class TestverifyAccountForm_TC5 {
             registerPage.inputFirstName("Nguyen");
             registerPage.inputMiddleName("Cuong");
             registerPage.inputLastName("Thinh");
-            registerPage.inputEmail("thinhnc@gmail.com");
+            registerPage.inputEmail("thinhncse@gmail.com");
             registerPage.inputPassword("123456");
             registerPage.InputConfirmPassword("123456");
             registerPage.clickRegisterBtn();
@@ -41,7 +41,7 @@ public class TestverifyAccountForm_TC5 {
                 driver.findElement(By.xpath("//ol[@class='nav-primary']//li[@class='level0 nav-2 last']")).click();
                 driver.findElement(By.className("link-wishlist")).click();
                 driver.findElement(By.xpath("//button[@class='button btn-share']")).click();
-                driver.findElement(By.id("email_address")).sendKeys("thinhnc@gmail.com");
+                driver.findElement(By.id("email_address")).sendKeys("thinhncse@gmail.com");
                 driver.findElement(By.id("message")).sendKeys("I want thiss");
                 driver.findElement(By.xpath("//div[@class='buttons-set form-buttons']//button[@class='button']")).click();
                 driver.findElement(By.className("success-msg"));

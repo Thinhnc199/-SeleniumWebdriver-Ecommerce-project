@@ -3,6 +3,7 @@
     import model.pages.DiscountCoupon;
     import org.openqa.selenium.WebDriver;
     import org.openqa.selenium.chrome.ChromeDriver;
+    import org.testng.Assert;
     import org.testng.annotations.BeforeTest;
     import org.testng.annotations.Test;
 
@@ -50,6 +51,7 @@
             } else {
                 System.out.println("Price is not discounted by 5%");
             }
+            Assert.assertNotEquals(originalPriceText,discountedPriceText);
 
         }
     }

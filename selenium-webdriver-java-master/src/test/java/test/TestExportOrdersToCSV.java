@@ -50,7 +50,6 @@ public class TestExportOrdersToCSV {
         String screenshotLocation = "./src/screenshot/screenshot.png";
         FileUtils.copyFile(screenshotFile, new File(screenshotLocation));
         System.out.println("Screenshot captured and saved to: " + screenshotLocation);
-
         }
     }
 

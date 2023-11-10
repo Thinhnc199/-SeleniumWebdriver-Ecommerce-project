@@ -15,8 +15,8 @@ public class Testcase6 {
 
         driver.findElement(By.xpath("//div[@id='header-account']//a[@title='My Account'][normalize-space()='My Account']")).click();
 
-        driver.findElement(By.id("email")).sendKeys("johndoe@example.com");
-        driver.findElement(By.id("pass")).sendKeys("password123");
+        driver.findElement(By.id("email")).sendKeys("thinhncse@gmail.com");
+        driver.findElement(By.id("pass")).sendKeys("123456");
         driver.findElement(By.id("send2")).click();
 
         driver.findElement(By.linkText("MY WISHLIST")).click();
